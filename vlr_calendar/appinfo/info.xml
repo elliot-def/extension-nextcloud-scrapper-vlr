@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>vlr_calendar</id>
+    <name>VLR.gg Calendar</name>
+    <summary>Génère un calendrier Valorant personnalisé.</summary>
+    <description>Scrape VLR.gg pour créer un flux ICS des équipes et joueurs suivis.</description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author>Toi</author>
+    <namespace>VlrCalendar</namespace>
+    <dependencies>
+        <nextcloud min-version="27" />
+    </dependencies>
+    <navigation>
+        <name>VLR Calendar</name>
+        <route>vlr_calendar.page.index</route>
+        <icon>app.svg</icon>
+    </navigation>
+</info>
